@@ -1,30 +1,29 @@
-# Je Vais Craquer — Informations Légales
+# Je Vais Craquer — Informations Legales
 
-Bienvenue sur la page d'informations légales de **Je Vais Craquer**, l'application iOS d'accompagnement post-rupture amoureuse.
+Bienvenue sur la page d'informations legales de **Je Vais Craquer**, l'application iOS d'accompagnement post-rupture amoureuse.
 
 ---
 
 ## Documents
 
-- [Politique de Confidentialité](privacy-policy.md) — Comment vos données sont protégées
-- [Conditions Générales d'Utilisation](terms-of-service.md) — Règles d'utilisation de l'application
-- [Mentions Légales](mentions-legales.md) — Éditeur, hébergement, propriété intellectuelle
+- [Politique de Confidentialite](privacy-policy.md) — Comment vos donnees sont protegees
+- [Conditions Generales d'Utilisation](terms-of-service.md) — Regles d'utilisation de l'application
 
 ---
 
-## À propos de l'application
+## A propos de l'application
 
-**Je Vais Craquer** est une application d'aide post-rupture amoureuse. Elle vous accompagne dans les moments difficiles grâce à un personnage bienveillant (le Veilleur), des rituels interactifs de détachement, des exercices de respiration et un espace d'écriture.
+**Je Vais Craquer** est une application d'aide post-rupture amoureuse. Elle vous accompagne dans les moments difficiles grace a un personnage bienveillant (le Veilleur), des rituels interactifs de detachement, des exercices de respiration et un espace d'ecriture.
 
-Toutes vos données restent sur votre appareil. Aucune information personnelle n'est envoyée à un serveur.
+Toutes vos donnees restent sur votre appareil. Aucune information personnelle n'est envoyee a un serveur.
 
 ---
 
 ## Contact
 
-- **Email** : [eric.ciccotti@gmail.com](mailto:eric.ciccotti@gmail.com)
-- **Développeur** : Eric Ciccotti — SIREN 808 483 580
+- **Email** : [support@jevaiscraquer.app](mailto:support@jevaiscraquer.app)
+- **Developpeur** : Eric Ciccotti
 
 ---
 
-*Dernière mise à jour : 6 avril 2026*
+*Derniere mise a jour : 24 mars 2026*
