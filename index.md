@@ -21,9 +21,9 @@ Toutes vos donnees restent sur votre appareil. Aucune information personnelle n'
 
 ## Contact
 
-- **Email** : [support@jevaiscraquer.app](mailto:support@jevaiscraquer.app)
+- **Email** : [jevaiscraquer@proton.me](mailto:jevaiscraquer@proton.me)
 - **Developpeur** : Eric Ciccotti
 
 ---
 
-*Derniere mise a jour : 24 mars 2026*
+*Derniere mise a jour : 12 avril 2026*
