@@ -1,12 +1,12 @@
 # Politique de Confidentialité — Je Vais Craquer
 
-**Dernière mise à jour : 2 avril 2026**
+**Dernière mise à jour : 20 avril 2026**
 
 ## Introduction
 
 Je Vais Craquer (ci-après "l'Application") est une application iOS d'aide post-rupture amoureuse développée par Eric Ciccotti (ci-après "le Développeur"). La présente Politique de Confidentialité a pour objet de vous informer sur la manière dont vos données personnelles sont collectées, utilisées et protégées conformément au Règlement Général sur la Protection des Données (RGPD) et aux lois applicables en matière de protection des données.
 
-Le Développeur s'engage à protéger votre vie privée. L'Application a été conçue selon le principe de **privacy by design** : vos données personnelles ne quittent pas votre appareil.
+Le Développeur s'engage à protéger votre vie privée. L'Application a été conçue selon le principe de **privacy by design** : vos données personnelles ne quittent pas votre écosystème Apple. Aucune donnée n'est transmise à un serveur du Développeur.
 
 ---
 
@@ -25,20 +25,50 @@ L'Application vous demande de saisir les informations suivantes lors de la confi
 - **Historique d'humeur** : les entrées quotidiennes d'humeur et notes optionnelles associées.
 - **Journal personnel** : les textes rédigés dans le journal matin/soir.
 - **Statistiques d'utilisation locale** : nombre d'urgences déclenchées, streak de jours sans contact, rituels effectués, missions complétées.
+- **Date d'installation** : pour suivre la progression dans le parcours de l'Application.
 
 **Aucune de ces données n'est de nature médicale ou clinique.** L'Application n'est pas un dispositif médical.
 
 ---
 
-## 2. Stockage des données
+## 2. Stockage et synchronisation des données
 
-Toutes les données saisies sont stockées **exclusivement en local sur votre appareil**, dans le système de stockage iOS (UserDefaults).
+### 2.1 Stockage local
 
-- **Aucune donnée personnelle n'est transmise à un serveur distant.**
-- **Aucune donnée n'est stockée dans le cloud** par l'Application elle-même.
+Les données saisies sont stockées sur votre appareil dans le système de stockage natif iOS (UserDefaults), au sein de la sandbox applicative.
+
+- **Aucune donnée n'est transmise à un serveur du Développeur.**
 - **Aucune base de données externe** n'est utilisée pour vos données personnelles.
 
-Si vous avez activé la sauvegarde iCloud sur votre appareil, les données de l'Application peuvent être incluses dans votre sauvegarde iCloud générale, gérée par Apple selon ses propres conditions de confidentialité.
+### 2.2 Synchronisation iCloud entre vos appareils
+
+Pour permettre la continuité de votre parcours entre vos appareils Apple (iPhone, iPad) connectés au même identifiant Apple, l'Application utilise **iCloud Key-Value Store** (NSUbiquitousKeyValueStore), un service de synchronisation fourni par Apple.
+
+**Données synchronisées via iCloud** :
+
+- Prénom de l'utilisateur et de l'ex-partenaire
+- Genres (utilisateur et ex-partenaire)
+- Date de la rupture, message personnel, préférences émotionnelles
+- Historique d'humeur et notes associées
+- Journal personnel (entrées matin / soir)
+- Lettres écrites
+- Statistiques d'utilisation (rituels complétés, urgences, compteurs de rituels spécifiques)
+- Date d'installation de l'Application
+- État d'avancement de l'onboarding
+
+**Important — Persistance au-delà de la désinstallation :**
+
+Les données synchronisées via iCloud Key-Value Store sont associées à votre compte iCloud personnel et **persistent même après la désinstallation de l'Application**. Elles sont automatiquement restaurées si vous réinstallez l'Application, ou si vous l'utilisez sur un autre de vos appareils Apple. Cette fonctionnalité garantit la continuité de votre parcours, essentielle dans un contexte d'accompagnement émotionnel.
+
+**Apple est sous-traitant** pour ce service. La synchronisation iCloud est régie par les [conditions de confidentialité d'Apple](https://www.apple.com/legal/privacy/).
+
+**Comment désactiver la synchronisation iCloud :**
+
+- **Réglages iOS** → **[Votre nom]** → **iCloud** → **Applications utilisant iCloud** → désactiver **Je Vais Craquer**.
+
+**Comment effacer les données synchronisées iCloud :**
+
+- **Réglages iOS** → **[Votre nom]** → **iCloud** → **Gérer le stockage du compte** → **Je Vais Craquer** → **Supprimer les données**.
 
 ---
 
@@ -55,13 +85,12 @@ L'Application utilise **TelemetryDeck**, un service d'analytique respectueux de 
 
 ## 4. Partage de données avec des tiers
 
-L'Application **ne partage aucune donnée personnelle avec des tiers**.
+L'Application **ne partage aucune donnée personnelle avec des tiers** autres qu'Apple (pour la synchronisation iCloud décrite à la section 2.2) et TelemetryDeck (pour les statistiques anonymes décrites à la section 3).
 
 - Pas de traceurs publicitaires.
 - Pas de SDK collectant des données personnelles.
 - Pas de publicités.
 - Pas de partage avec des réseaux sociaux.
-- Seules des données anonymes et agrégées transitent via TelemetryDeck (voir section 3).
 
 ---
 
@@ -99,7 +128,7 @@ L'Application propose un abonnement premium via le système d'achat intégré d'
 
 ## 8. Compte utilisateur
 
-L'Application **ne nécessite aucune création de compte**, aucune inscription et aucune connexion. Aucune adresse email, mot de passe ou identifiant n'est collecté par l'Application.
+L'Application **ne nécessite aucune création de compte**, aucune inscription et aucune connexion. Aucune adresse email, mot de passe ou identifiant n'est collecté par l'Application. Les données synchronisées iCloud (section 2.2) sont associées à votre identifiant Apple, géré par Apple.
 
 ---
 
@@ -115,17 +144,18 @@ Conformément au RGPD, vous disposez des droits suivants :
 
 - **Droit d'accès** : toutes vos données sont visibles directement dans l'Application.
 - **Droit de rectification** : vous pouvez modifier vos informations à tout moment dans les réglages de l'Application.
-- **Droit à l'effacement** : la désinstallation de l'Application supprime définitivement toutes les données stockées localement. Vous pouvez également réinitialiser vos données depuis les réglages de l'Application.
-- **Droit à la portabilité** : les données étant stockées uniquement sur votre appareil, elles sont déjà en votre possession.
+- **Droit à l'effacement** : vous pouvez effacer vos données par les moyens suivants :
+  1. **Désinstaller l'Application** : supprime les données locales de l'appareil.
+  2. **Effacer les données iCloud synchronisées** : Réglages iOS → [Votre nom] → iCloud → Gérer le stockage du compte → Je Vais Craquer → Supprimer les données.
+  3. **Effacement complet** : les deux étapes ci-dessus combinées suppriment définitivement l'intégralité de vos données personnelles de l'écosystème Apple.
+- **Droit à la portabilité** : les données étant stockées dans votre écosystème Apple, elles sont déjà en votre possession.
 - **Droit d'opposition** : aucun traitement automatisé ou profilage n'est effectué sur vos données personnelles.
-
-La suppression de l'Application constitue l'effacement complet et définitif de vos données personnelles.
 
 ---
 
 ## 11. Sécurité
 
-Les données sont protégées par les mécanismes de sécurité natifs d'iOS (chiffrement de l'appareil, sandbox applicative). Le Développeur ne peut pas accéder à vos données puisqu'elles ne quittent jamais votre appareil.
+Les données sont protégées par les mécanismes de sécurité natifs d'iOS (chiffrement de l'appareil, sandbox applicative) et d'iCloud (chiffrement en transit et au repos). Le Développeur ne peut pas accéder à vos données puisqu'elles ne transitent jamais par son infrastructure.
 
 ---
 
@@ -144,4 +174,4 @@ Pour toute question relative à la présente Politique de Confidentialité :
 
 ---
 
-*Cette politique de confidentialité est effective à compter du 2 avril 2026.*
+*Cette politique de confidentialité est effective à compter du 20 avril 2026.*
