@@ -1,6 +1,6 @@
 # Conditions Générales d'Utilisation — Je Vais Craquer
 
-**Dernière mise à jour : 2 avril 2026**
+**Dernière mise à jour : 20 avril 2026**
 
 ## Introduction
 
@@ -133,13 +133,25 @@ Vous pouvez cesser d'utiliser l'Application à tout moment en la désinstallant 
 
 ---
 
-## 10. Droit applicable et juridiction
+## 10. Relation avec Apple
+
+L'Application est distribuée exclusivement sur l'App Store d'Apple Inc. Les clauses suivantes, requises par Apple, s'appliquent :
+
+- **Parties aux présentes CGU** : les présentes CGU sont conclues entre vous (l'utilisateur) et le Développeur uniquement, et non avec Apple Inc. ou ses filiales.
+- **Responsabilité** : Apple n'est pas responsable de l'Application, de son contenu, de sa maintenance, de son support technique, ni du traitement d'éventuelles réclamations liées à l'Application (notamment en cas de défaut, de non-conformité ou de violation alléguée de droits de propriété intellectuelle par un tiers). Toute réclamation doit être adressée au Développeur.
+- **Tiers bénéficiaire** : Apple et ses filiales sont des tiers bénéficiaires des présentes CGU et, à ce titre, disposent du droit de faire valoir ces conditions à votre encontre.
+- **EULA Apple** : l'utilisation de l'Application est également régie par l'[EULA Apple standard](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) (Licensed Application End User License Agreement) et par les [Conditions d'utilisation de l'App Store](https://www.apple.com/legal/internet-services/itunes/).
+- **Conformité aux lois d'exportation** : vous déclarez ne pas résider dans un pays soumis à un embargo du gouvernement des États-Unis ou désigné comme "terrorist supporting country" par le gouvernement des États-Unis, et ne pas figurer sur une liste de parties interdites ou restreintes du gouvernement américain.
+
+---
+
+## 11. Droit applicable et juridiction
 
 Les présentes CGU sont soumises au droit français. En cas de litige, et à défaut de résolution amiable, les tribunaux compétents seront ceux du ressort du domicile du Développeur.
 
 ---
 
-## 11. Contact
+## 12. Contact
 
 Pour toute question relative aux présentes CGU :
 
@@ -148,4 +160,4 @@ Pour toute question relative aux présentes CGU :
 
 ---
 
-*Ces conditions générales d'utilisation sont effectives à compter du 2 avril 2026.*
+*Ces conditions générales d'utilisation sont effectives à compter du 20 avril 2026.*
