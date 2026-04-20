@@ -68,7 +68,10 @@ Les données synchronisées via iCloud Key-Value Store sont associées à votre 
 
 **Comment effacer les données synchronisées iCloud :**
 
-- **Réglages iOS** → **[Votre nom]** → **iCloud** → **Gérer le stockage du compte** → **Je Vais Craquer** → **Supprimer les données**.
+Le service iCloud Key-Value Store n'apparaît pas dans la liste "Gérer le stockage iCloud" d'iOS (choix de conception d'Apple, ce service étant transparent pour l'utilisateur). Pour effacer l'ensemble de vos données synchronisées :
+
+- Ouvrez l'Application → **Réglages** (icône engrenage en haut à droite) → section **"Vie privée"** → **"Effacer toutes mes données"**.
+- Cette action supprime immédiatement l'intégralité de vos données sur l'appareil **et** sur votre compte iCloud.
 
 ---
 
@@ -145,9 +148,9 @@ Conformément au RGPD, vous disposez des droits suivants :
 - **Droit d'accès** : toutes vos données sont visibles directement dans l'Application.
 - **Droit de rectification** : vous pouvez modifier vos informations à tout moment dans les réglages de l'Application.
 - **Droit à l'effacement** : vous pouvez effacer vos données par les moyens suivants :
-  1. **Désinstaller l'Application** : supprime les données locales de l'appareil.
-  2. **Effacer les données iCloud synchronisées** : Réglages iOS → [Votre nom] → iCloud → Gérer le stockage du compte → Je Vais Craquer → Supprimer les données.
-  3. **Effacement complet** : les deux étapes ci-dessus combinées suppriment définitivement l'intégralité de vos données personnelles de l'écosystème Apple.
+  1. **Effacement complet depuis l'Application (recommandé)** : ouvrez l'Application → Réglages → section **"Vie privée"** → **"Effacer toutes mes données"**. Cette action supprime immédiatement l'intégralité de vos données locales **et** iCloud synchronisées.
+  2. **Désinstaller l'Application** : supprime uniquement les données locales de l'appareil. Les données iCloud synchronisées restent accessibles lors d'une éventuelle réinstallation sur un appareil lié au même compte Apple.
+  3. **Demande par email** : vous pouvez également contacter le Développeur à l'adresse indiquée en section 13 pour toute demande d'effacement.
 - **Droit à la portabilité** : les données étant stockées dans votre écosystème Apple, elles sont déjà en votre possession.
 - **Droit d'opposition** : aucun traitement automatisé ou profilage n'est effectué sur vos données personnelles.
 
